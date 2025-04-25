@@ -1,0 +1,53 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "What this website is about",
+    "section": "",
+    "text": "This is some contetnet. Windows 11 is the latest version of Windows. It was released on October 5, 2021. Windows 11 is a major update to Windows 10, and it includes a new user interface, new features, and improved performance. Windows 11 is designed to be more user-friendly and efficient than previous versions of Windows. It also includes support for new hardware and software technologies, such as DirectStorage and Auto HDR.",
+    "crumbs": [
+      "About"
+    ]
+  },
+  {
+    "objectID": "index.html#must-read-paper",
+    "href": "index.html#must-read-paper",
+    "title": "What this website is about",
+    "section": "Must Read Paper",
+    "text": "Must Read Paper\n\n\n\n\n\nDate\n\n\nTitle\n\n\nReading Time\n\n\nDescription\n\n\n\n\n\n\n2025-04-24\n\n\n2025-04-24: Attention Is All You Need(Transformer)\n\n\n1 min\n\n\nSome content\n\n\n\n\n2025-04-25\n\n\n2025-04-25: AN IMAGE IS WORTH 16X16 WORDS: TRANSFORMERS FOR IMAGE RECOGNITION AT SCALE(Vision Transformer)\n\n\n1 min\n\n\nSome content\n\n\n\n\n2025-05-01\n\n\n2025-05-21: Learning Transferable Visual Models From Natural Language Supervision(CLIP)\n\n\n1 min\n\n\nSome content\n\n\n\n\n\nNo matching items\n\n\nThere are some content",
+    "crumbs": [
+      "About"
+    ]
+  },
+  {
+    "objectID": "index.html#natural-language-processing",
+    "href": "index.html#natural-language-processing",
+    "title": "What this website is about",
+    "section": "Natural Language Processing",
+    "text": "Natural Language Processing\nThere are some content",
+    "crumbs": [
+      "About"
+    ]
+  },
+  {
+    "objectID": "index.html#summary",
+    "href": "index.html#summary",
+    "title": "What this website is about",
+    "section": "Summary",
+    "text": "Summary",
+    "crumbs": [
+      "About"
+    ]
+  },
+  {
+    "objectID": "posts/2025/04/6_24.html",
+    "href": "posts/2025/04/6_24.html",
+    "title": "2025-04-24: Attention Is All You Need(Transformer)",
+    "section": "",
+    "text": "Paper Name: Attention Is All You Need\nPublication Date: 2017-06-06\n\n\nAbstract:\nThe Transformer is theorem\n Attention is All you need",
+    "crumbs": [
+      "2025-04",
+      "**2025-04-24**: Attention Is All You Need(Transformer)"
+    ]
+  }
+]
