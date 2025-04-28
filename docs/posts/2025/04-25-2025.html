@@ -7,10 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Yuyang Zhang">
-<meta name="dcterms.date" content="2025-04-24">
-<meta name="description" content="Some content">
+<meta name="dcterms.date" content="2025-04-25">
 
-<title>2025-04-24: Attention Is All You Need(Transformer) – AI Daily Papers</title>
+<title>2025-04-25 Paper Reading – AI Daily Papers</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -26,24 +25,25 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../../../">
-<link href="../../../posts/2025/04/5_25.html" rel="prev">
-<script src="../../../site_libs/quarto-html/quarto.js"></script>
-<script src="../../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-0626ff4d7a71b55c8707dcae1d04a9b6.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-dark-e25cc82807363e79c52e96bc8b7855f1.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../../site_libs/bootstrap/bootstrap-1548a00104244c9d52a1eb533ec290c5.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../../../site_libs/bootstrap/bootstrap-dark-65428eb108ccfbb789bfd7a96c6efe2b.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../posts/2025/04-26-2025.html" rel="next">
+<link href="../../index.html" rel="prev">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-0626ff4d7a71b55c8707dcae1d04a9b6.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-e25cc82807363e79c52e96bc8b7855f1.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-1548a00104244c9d52a1eb533ec290c5.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark-65428eb108ccfbb789bfd7a96c6efe2b.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -74,9 +74,8 @@ ul.task-list li input[type="checkbox"] {
 <link href="https://fonts.cdnfonts.com/css/cmu-sans-serif" rel="stylesheet">
 
 
-<link rel="stylesheet" href="../../../style/styles.css">
-<meta property="og:title" content="2025-04-24: Attention Is All You Need(Transformer) – AI Daily Papers">
-<meta property="og:description" content="Some content">
+<link rel="stylesheet" href="../../style/styles.css">
+<meta property="og:title" content="2025-04-25 Paper Reading – AI Daily Papers">
 <meta property="og:site_name" content="AI Daily Papers">
 </head>
 
@@ -89,7 +88,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../posts/2025/04/5_25.html">2025-04</a></li><li class="breadcrumb-item"><a href="../../../posts/2025/04/6_24.html"><strong>2025-04-24</strong>: Attention Is All You Need(Transformer)</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../posts/2025/04-25-2025.html">2025</a></li><li class="breadcrumb-item"><a href="../../posts/2025/04-25-2025.html"><strong>2025-04-25</strong> Paper Reading</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -103,8 +102,8 @@ ul.task-list li input[type="checkbox"] {
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
     <div class="pt-lg-2 mt-2 text-center sidebar-header">
-      <a href="../../../index.html" class="sidebar-logo-link">
-      <img src="../../.././images/logo.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
+      <a href="../../index.html" class="sidebar-logo-link">
+      <img src="../.././images/logo.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
       </a>
       <div class="sidebar-tools-main tools-wide">
     <a href="https://yyzhang2000.github.io/Blog/" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-globe"></i></a>
@@ -123,7 +122,7 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../index.html" class="sidebar-item-text sidebar-link"><i class="bi bi-home" role="img">
+  <a href="../../index.html" class="sidebar-item-text sidebar-link"><i class="bi bi-home" role="img">
 </i> 
  <span class="menu-text">About</span></a>
   </div>
@@ -131,7 +130,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
- <span class="menu-text">2025-05</span></a>
+ <span class="menu-text">2025</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -139,31 +138,14 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../posts/2025/05/01.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">2025-05-21: Learning Transferable Visual Models From Natural Language Supervision(CLIP)</span></a>
-  </div>
-</li>
-      </ul>
-  </li>
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
- <span class="menu-text">2025-04</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../posts/2025/04/5_25.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><strong>2025-04-25</strong>: AN IMAGE IS WORTH 16X16 WORDS: TRANSFORMERS FOR IMAGE RECOGNITION AT SCALE(Vision Transformer)</span></a>
+  <a href="../../posts/2025/04-25-2025.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><strong>2025-04-25</strong> Paper Reading</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../posts/2025/04/6_24.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text"><strong>2025-04-24</strong>: Attention Is All You Need(Transformer)</span></a>
+  <a href="../../posts/2025/04-26-2025.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><strong>2025-04-26</strong> Paper Reading</span></a>
   </div>
 </li>
       </ul>
@@ -179,19 +161,11 @@ ul.task-list li input[type="checkbox"] {
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../posts/2025/04/5_25.html">2025-04</a></li><li class="breadcrumb-item"><a href="../../../posts/2025/04/6_24.html"><strong>2025-04-24</strong>: Attention Is All You Need(Transformer)</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../posts/2025/04-25-2025.html">2025</a></li><li class="breadcrumb-item"><a href="../../posts/2025/04-25-2025.html"><strong>2025-04-25</strong> Paper Reading</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title"><strong>2025-04-24</strong>: Attention Is All You Need(Transformer)</h1>
-  <div class="quarto-categories">
-    <div class="quarto-category">Must Read</div>
-  </div>
-  </div>
-
-<div>
-  <div class="description">
-    Some content
-  </div>
+<h1 class="title"><strong>2025-04-25</strong> Paper Reading</h1>
 </div>
+
 
 
 <div class="quarto-title-meta">
@@ -206,7 +180,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">2025-04-24</p>
+      <p class="date">2025-04-25</p>
     </div>
   </div>
   
@@ -218,15 +192,6 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<ul>
-<li>Paper Name: <a href="https://arxiv.org/abs/1706.03762">Attention Is All You Need</a></li>
-<li>Publication Date: 2017-06-06</li>
-</ul>
-<blockquote class="blockquote">
-<p><strong>Abstract</strong>:</p>
-<p>The Transformer is theorem</p>
-<p><cite> Attention is All you need</cite></p>
-</blockquote>
 
 
 
@@ -799,11 +764,14 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../../../posts/2025/04/5_25.html" class="pagination-link" aria-label="**2025-04-25**: AN IMAGE IS WORTH 16X16 WORDS: TRANSFORMERS FOR IMAGE RECOGNITION AT SCALE(Vision Transformer)">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><strong>2025-04-25</strong>: AN IMAGE IS WORTH 16X16 WORDS: TRANSFORMERS FOR IMAGE RECOGNITION AT SCALE(Vision Transformer)</span>
+      <a href="../../index.html" class="pagination-link" aria-label="About">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">About</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
+      <a href="../../posts/2025/04-26-2025.html" class="pagination-link" aria-label="**2025-04-26** Paper Reading">
+        <span class="nav-page-text"><strong>2025-04-26</strong> Paper Reading</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
   </div>
 </nav>
 </div> <!-- /content -->
